@@ -29,11 +29,13 @@ Dependencies are inherited from the NCSN and Glow projects. For NCSN:
 
 For Glow:
 
-* Tensorflow (tested with v1.13.0)
+* Tensorflow (tested with v1.8.0)
 
 * Horovod (tested with v0.13.8) and (Open)MPI
 
-See the NCSN and Glow repositories for further details.
+* Keras (tested with v2.2.0)
+
+See the NCSN and Glow repositories for further details on installation of dependencies.
 
 
 ## Aquiring Pre-Trained Models
@@ -54,9 +56,9 @@ Note that NCSN models are not available for LSUN, so LSUN experiments can only b
 
 Pre-trained CIFAR-10 and LSUN models are provided by the Glow authors:
 
-* [CIFAR-10](wget https://storage.googleapis.com/glow-demo/logs/abl-1x1-aff.tar)
-* [LSUN Bedrooms](wget https://storage.googleapis.com/glow-demo/logs/lsun-rnvp-bdr.tar)
-* [LSUN Churches](wget https://storage.googleapis.com/glow-demo/logs/lsun-rnvp-crh.tar)
+* [CIFAR-10](https://storage.googleapis.com/glow-demo/logs/abl-1x1-aff.tar)
+* [LSUN Bedrooms](https://storage.googleapis.com/glow-demo/logs/lsun-rnvp-bdr.tar)
+* [LSUN Churches](https://storage.googleapis.com/glow-demo/logs/lsun-rnvp-crh.tar)
 
 Unlike NCSN, the Glow models must be fine-tuned with various amounts of Gaussian noise to be used by BASIS.
 We suggest the following 10 noise levels:
