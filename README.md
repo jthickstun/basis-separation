@@ -1,5 +1,5 @@
 # basis-separation
-Implementation of the BASIS separation algorithm described in [Source Separation with Deep Generative Priors](https://github.com/jthickstun/basis-separation).
+Implementation of the BASIS separation algorithm described in [Source Separation with Deep Generative Priors](https://arxiv.org/abs/2002.07942).
 
 by __Vivek Jayaram__ and __John Thickstun__. University of Washington
 
