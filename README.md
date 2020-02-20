@@ -1,5 +1,5 @@
 # basis-separation
-Implementation of the BASIS separation algorithm for source separation with deep generative priors.
+Implementation of the BASIS separation algorithm described in [Source Separation with Deep Generative Priors](https://github.com/jthickstun/basis-separation).
 
 by __Vivek Jayaram__ and __John Thickstun__. University of Washington
 
@@ -112,3 +112,14 @@ python3 separate.py --model glow --problem lsun_realnvp --logdir lsun_output
 Please see the [NCSN](https://github.com/ermongroup/ncsn) and [Glow](https://github.com/openai/glow) repositories
 for the code from which the models in this repository are derived.
 
+To reference this work, please cite
+
+```bib
+@inproceedings{jayaram2020source,
+  author    = {Vivek Jayaram and John Thickstun},
+  title     = {Source Separation with Deep Generative Priors},
+  booktitle = {arXiv preprint arXiv:2002.07942},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2002.07942},
+}
+```
