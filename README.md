@@ -15,17 +15,17 @@ and [Glow](https://github.com/openai/glow) projects, which provide the models us
 
 Dependencies are inherited from the NCSN and Glow projects. For NCSN:
 
-* PyTorch
+* PyTorch (tested with v1.2.0)
 
-* PyYAML
+* PyYAML (tested with v5.3)
 
-* tqdm
+* tqdm (tested with v4.32.1)
 
-* pillow
+* pillow (tested with v6.2.1)
 
-* tensorboardX
+* tensorboardX (tested with v1.6)
 
-* seaborn
+* seaborn (tested with v0.9.0)
 
 For Glow:
 
