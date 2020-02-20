@@ -62,10 +62,13 @@ Pre-trained CIFAR-10 and LSUN models are provided by the Glow authors:
 
 Unlike NCSN, the Glow models must be fine-tuned with various amounts of Gaussian noise to be used by BASIS. Fine-tuned models for MNIST, CIFAR-10, and LSUN Churches and Bedrooms can be downloaded here:
 
-* [MNIST](https://drive.google.com/open?id=1cIZw7PC_xWfMaTE8P9k_wyTC4Py2RQsG) (~5Gb)
-* [CIFAR-10](https://drive.google.com/open?id=1gZSMaq_hYRQIaTxgWni246FH3ec8unlC) (~7Gb)
-* [LSUN Bedrooms](https://drive.google.com/open?id=1T1ysGkFyLYt_PkO0bcEMMnl4_VR-m_TX) (~13Gb)
-* [LSUN Churches](https://drive.google.com/open?id=1otL4NwniITCBIuwIKOT_lVHsSAiUAQXl) (~13Gb)
+* [MNIST](https://drive.google.com/uc?export=download&id=1WfyOlE_G5goFYo0WH_P7Tq4tS2S3y-EC) (~5Gb)
+* [CIFAR-10](https://drive.google.com/uc?export=download&id=1BGJHqso8C8GGI7H8KmMBhio07gQFdQLI) (~7Gb)
+* [LSUN Bedrooms](https://drive.google.com/uc?export=download&id=1vmVMP7QOdyvD95-6WrczVi_kNK2silg3) (~13Gb)
+* [LSUN Churches](https://drive.google.com/uc?export=download&id=1yNUk2jnTFNPQiOxmlrgxjn9gviKnncQe) (~13Gb)
+
+Please extract the downloaded tarballs to the root of your local copy of this repository.
+The finetuned models will be extracted to the finetuned/ sub-directory, where they can be found by the BASIS separation script.
 
 ### Fine-tuning a Glow model
 
