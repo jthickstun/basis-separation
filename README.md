@@ -62,10 +62,10 @@ Pre-trained CIFAR-10 and LSUN models are provided by the Glow authors:
 
 Unlike NCSN, the Glow models must be fine-tuned with various amounts of Gaussian noise to be used by BASIS. Fine-tuned models for MNIST, CIFAR-10, and LSUN Churches and Bedrooms can be downloaded here:
 
-* [MNIST](https://drive.google.com/open?id=1cIZw7PC_xWfMaTE8P9k_wyTC4Py2RQsG)
-* [CIFAR-10](https://drive.google.com/open?id=1gZSMaq_hYRQIaTxgWni246FH3ec8unlC)
-* [LSUN Bedrooms](https://drive.google.com/open?id=1T1ysGkFyLYt_PkO0bcEMMnl4_VR-m_TX)
-* [LSUN Churches](https://drive.google.com/open?id=1otL4NwniITCBIuwIKOT_lVHsSAiUAQXl)
+* [MNIST](https://drive.google.com/open?id=1cIZw7PC_xWfMaTE8P9k_wyTC4Py2RQsG) (~5Gb)
+* [CIFAR-10](https://drive.google.com/open?id=1gZSMaq_hYRQIaTxgWni246FH3ec8unlC) (~7Gb)
+* [LSUN Bedrooms](https://drive.google.com/open?id=1T1ysGkFyLYt_PkO0bcEMMnl4_VR-m_TX) (~13Gb)
+* [LSUN Churches](https://drive.google.com/open?id=1otL4NwniITCBIuwIKOT_lVHsSAiUAQXl) (~13Gb)
 
 ### Fine-tuning a Glow model
 
