@@ -101,10 +101,10 @@ python3 separate.py --model glow --problem cifar10 --image_folder output
 python3 separate.py --model glow --problem lsun_realnvp --logdir lsun_output
 ```
 
-### CIFAR-10 Example
+### CIFAR-10 Example (using NCSN)
 ![](assets/cifar_video.gif)
 
-### LSUN Example
+### LSUN Example (using Glow)
 ![](assets/lsun_video.gif)
 
 ## References
