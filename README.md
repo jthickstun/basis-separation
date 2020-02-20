@@ -60,11 +60,14 @@ Pre-trained CIFAR-10 and LSUN models are provided by the Glow authors:
 * [LSUN Bedrooms](https://storage.googleapis.com/glow-demo/logs/lsun-rnvp-bdr.tar)
 * [LSUN Churches](https://storage.googleapis.com/glow-demo/logs/lsun-rnvp-crh.tar)
 
-Unlike NCSN, the Glow models must be fine-tuned with various amounts of Gaussian noise to be used by BASIS.
-We suggest the following 10 noise levels:
-```
-[1., 0.59948425, 0.35938137, 0.21544347, 0.12915497,0.07742637, 0.04641589, 0.02782559, 0.01668101, 0.01]
-```
+Unlike NCSN, the Glow models must be fine-tuned with various amounts of Gaussian noise to be used by BASIS. Fine-tuned models for MNIST, CIFAR-10, and LSUN Churches and Bedrooms can be downloaded here:
+
+* [MNIST](https://drive.google.com/open?id=1cIZw7PC_xWfMaTE8P9k_wyTC4Py2RQsG)
+* [CIFAR-10](https://drive.google.com/open?id=1gZSMaq_hYRQIaTxgWni246FH3ec8unlC)
+* [LSUN Bedrooms](https://drive.google.com/open?id=1T1ysGkFyLYt_PkO0bcEMMnl4_VR-m_TX)
+* [LSUN Churches](https://drive.google.com/open?id=1otL4NwniITCBIuwIKOT_lVHsSAiUAQXl)
+
+### Fine-tuning a Glow model
 
 You can fine-tune a Glow model using the `noise_level` flag.
 
@@ -80,6 +83,8 @@ Note that high-noise data may not be well-supported by the zero-noise pre-traine
 
 
 ## Running BASIS
+
+See the previous section for instructions about downloaded pre-trained models for running BASIS. Below are some examples of how to run BASIS separation with each of the models and datasets discussed in the paper.
 
 ```
 python3 separate.py --model ncsn --runner MnistRunner --config anneal.yml --doc mnist --test --image_folder output
