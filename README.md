@@ -126,7 +126,7 @@ To reference this work, please cite
 @article{jayaram2020source,
   author    = {Vivek Jayaram and John Thickstun},
   title     = {Source Separation with Deep Generative Priors},
-  journal   = {arXiv preprint arXiv:2002.07942},
+  journal   = {International Conference on Machine Learning},
   year      = {2020},
 }
 ```
