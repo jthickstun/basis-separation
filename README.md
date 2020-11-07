@@ -109,6 +109,12 @@ python3 separate.py --model glow --problem cifar10 --image_folder output
 python3 separate.py --model glow --problem lsun_realnvp --logdir lsun_output
 ```
 
+## Colorization Example
+NCSN only for now
+```
+python3 separate.py --model ncsn --runner CifarRunner --config anneal.yml --doc cifar10 --test --image_folder output
+```
+
 ### CIFAR-10 Example (using NCSN)
 ![](assets/cifar_video.gif)
 
